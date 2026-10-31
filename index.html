@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A personal portfolio by Your Name.">
+  <title>Your Name | Portfolio</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --background: #11130f;
+      --surface: #191c17;
+      --text: #f0f1e9;
+      --muted: #a4a99a;
+      --line: #34392f;
+      --accent: #c9f36a;
+      --content-width: 1080px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      background: var(--background);
+      scroll-behavior: smooth;
+    }
+
+    body {
+      min-width: 320px;
+      margin: 0;
+      color: var(--text);
+      background-color: var(--background);
+      background-image:
+        linear-gradient(rgba(240, 241, 233, 0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(240, 241, 233, 0.025) 1px, transparent 1px);
+      background-size: 48px 48px;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--accent);
+      text-underline-offset: 0.22em;
+      text-decoration-thickness: 1px;
+    }
+
+    a:hover {
+      text-decoration-thickness: 2px;
+    }
+
+    a:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 5px;
+    }
+
+    .page-shell {
+      width: min(var(--content-width), calc(100% - 64px));
+      margin-inline: auto;
+    }
+
+    .site-header {
+      min-height: 460px;
+      display: flex;
+      align-items: center;
+      padding-block: 88px 96px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .eyebrow,
+    .section-label,
+    .project-number {
+      color: var(--accent);
+      font-family: "Cascadia Code", Consolas, monospace;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow {
+      margin: 0 0 20px;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin-top: 0;
+    }
+
+    h1 {
+      max-width: 900px;
+      margin-bottom: 14px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(3.5rem, 11vw, 8rem);
+      font-weight: 400;
+      letter-spacing: 0;
+      line-height: 0.98;
+      overflow-wrap: anywhere;
+    }
+
+    .role {
+      margin: 0;
+      color: var(--muted);
+      font-size: clamp(1.05rem, 2.4vw, 1.35rem);
+    }
+
+    main {
+      padding-block: 76px 92px;
+    }
+
+    .section-heading {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 28px;
+    }
+
+    .section-heading h2 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      font-weight: 400;
+      letter-spacing: 0;
+      line-height: 1.1;
+    }
+
+    .section-label {
+      flex: 0 0 auto;
+      margin: 0;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .project-card {
+      min-height: 248px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 24px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+    }
+
+    .project-number {
+      margin-bottom: 34px;
+    }
+
+    .project-card h3 {
+      margin-bottom: 8px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.6rem;
+      font-weight: 400;
+      letter-spacing: 0;
+      line-height: 1.2;
+      overflow-wrap: anywhere;
+    }
+
+    .project-card p {
+      margin-bottom: 24px;
+      color: var(--muted);
+    }
+
+    .project-card a {
+      margin-top: auto;
+      font-size: 0.92rem;
+      font-weight: 600;
+    }
+
+    .site-footer {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 32px;
+      padding-block: 28px 40px;
+      border-top: 1px solid var(--line);
+    }
+
+    .footer-label {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .contact-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 24px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .contact-links a {
+      font-size: 0.92rem;
+      font-weight: 600;
+    }
+
+    @media (max-width: 760px) {
+      .page-shell {
+        width: min(var(--content-width), calc(100% - 40px));
+      }
+
+      .site-header {
+        min-height: 390px;
+        padding-block: 72px;
+      }
+
+      main {
+        padding-block: 56px 64px;
+      }
+
+      .project-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+
+      .project-card {
+        min-height: 220px;
+      }
+
+      .project-number {
+        margin-bottom: 24px;
+      }
+
+      .site-footer {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 16px;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .page-shell {
+        width: calc(100% - 32px);
+      }
+
+      .section-heading {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .contact-links {
+        gap: 10px 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header page-shell">
+    <div>
+      <p class="eyebrow">Personal portfolio</p>
+      <h1>Your Name</h1>
+      <p class="role">Your role, in one clear line.</p>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section aria-labelledby="projects-title">
+      <div class="section-heading">
+        <h2 id="projects-title">Selected work</h2>
+        <p class="section-label">Three projects</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <span class="project-number">01 / Project</span>
+          <h3>Project One</h3>
+          <p>Replace this with one sentence about the project and your contribution.</p>
+          <a href="https://example.com/project-one">View project</a>
+        </article>
+
+        <article class="project-card">
+          <span class="project-number">02 / Project</span>
+          <h3>Project Two</h3>
+          <p>Replace this with one sentence about the project and your contribution.</p>
+          <a href="https://example.com/project-two">View project</a>
+        </article>
+
+        <article class="project-card">
+          <span class="project-number">03 / Project</span>
+          <h3>Project Three</h3>
+          <p>Replace this with one sentence about the project and your contribution.</p>
+          <a href="https://example.com/project-three">View project</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer page-shell">
+    <p class="footer-label">Get in touch</p>
+    <nav aria-label="Contact links">
+      <ul class="contact-links">
+        <li><a href="mailto:you@example.com">Email</a></li>
+        <li><a href="https://github.com/your-username">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/your-username/">LinkedIn</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
