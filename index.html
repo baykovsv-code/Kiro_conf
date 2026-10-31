@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A personal portfolio by Your Name.">
-  <title>Your Name | Portfolio</title>
+  <meta name="description" content="A personal portfolio by Sergey.">
+  <title>Sergey | Portfolio</title>
   <style>
     :root {
       color-scheme: dark;
@@ -168,7 +168,8 @@
       color: var(--muted);
     }
 
-    .project-card a {
+    .project-card a,
+    .project-link {
       margin-top: auto;
       font-size: 0.92rem;
       font-weight: 600;
@@ -201,6 +202,11 @@
     .contact-links a {
       font-size: 0.92rem;
       font-weight: 600;
+    }
+
+    .contact-placeholder {
+      color: var(--muted);
+      font-size: 0.92rem;
     }
 
     @media (max-width: 760px) {
@@ -258,8 +264,8 @@
   <header class="site-header page-shell">
     <div>
       <p class="eyebrow">Personal portfolio</p>
-      <h1>Your Name</h1>
-      <p class="role">Your role, in one clear line.</p>
+      <h1>Sergey</h1>
+      <p class="role">Developer</p>
     </div>
   </header>
 
@@ -273,23 +279,23 @@
       <div class="project-grid">
         <article class="project-card">
           <span class="project-number">01 / Project</span>
-          <h3>Project One</h3>
-          <p>Replace this with one sentence about the project and your contribution.</p>
-          <a href="https://example.com/project-one">View project</a>
+          <h3>Furniture store</h3>
+          <p>Furniture store.</p>
+          <span class="project-link">Project URL not provided</span>
         </article>
 
         <article class="project-card">
           <span class="project-number">02 / Project</span>
-          <h3>Project Two</h3>
-          <p>Replace this with one sentence about the project and your contribution.</p>
-          <a href="https://example.com/project-two">View project</a>
+          <h3>Furniture store</h3>
+          <p>Furniture store.</p>
+          <span class="project-link">Project URL not provided</span>
         </article>
 
         <article class="project-card">
           <span class="project-number">03 / Project</span>
-          <h3>Project Three</h3>
-          <p>Replace this with one sentence about the project and your contribution.</p>
-          <a href="https://example.com/project-three">View project</a>
+          <h3>Project details pending</h3>
+          <p>Add the third project's title and one-sentence description.</p>
+          <span class="project-link">Project URL not provided</span>
         </article>
       </div>
     </section>
@@ -299,9 +305,9 @@
     <p class="footer-label">Get in touch</p>
     <nav aria-label="Contact links">
       <ul class="contact-links">
-        <li><a href="mailto:you@example.com">Email</a></li>
-        <li><a href="https://github.com/your-username">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/your-username/">LinkedIn</a></li>
+        <li><span class="contact-placeholder">Email not provided</span></li>
+        <li><a href="https://github.com/baykovsv-code">GitHub</a></li>
+        <li><span class="contact-placeholder">LinkedIn not provided</span></li>
       </ul>
     </nav>
   </footer>
