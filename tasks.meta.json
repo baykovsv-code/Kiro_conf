@@ -1,0 +1,103 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "6. Build the page in a single `index.html` with inline CSS and no JavaScript.": [
+      {
+        "executionId": "26a03ac8-e117-4683-89aa-22bfd5a7f687",
+        "chatSessionId": "sess_a8f695e1-72fa-4004-802b-4fa566b28350",
+        "timestamp": 1793430505298
+      },
+      {
+        "executionId": "26a03ac8-e117-4683-89aa-22bfd5a7f687",
+        "chatSessionId": "sess_a8f695e1-72fa-4004-802b-4fa566b28350",
+        "timestamp": 1793430511780
+      },
+      {
+        "executionId": "26a03ac8-e117-4683-89aa-22bfd5a7f687",
+        "chatSessionId": "sess_a8f695e1-72fa-4004-802b-4fa566b28350",
+        "timestamp": 1793430519571
+      },
+      {
+        "executionId": "26a03ac8-e117-4683-89aa-22bfd5a7f687",
+        "chatSessionId": "sess_a8f695e1-72fa-4004-802b-4fa566b28350",
+        "timestamp": 1793430631116
+      }
+    ],
+    "7. Replace remaining placeholders with mock values and verify all required links are present.": [
+      {
+        "executionId": "26a03ac8-e117-4683-89aa-22bfd5a7f687",
+        "chatSessionId": "sess_a8f695e1-72fa-4004-802b-4fa566b28350",
+        "timestamp": 1793430508476
+      },
+      {
+        "executionId": "26a03ac8-e117-4683-89aa-22bfd5a7f687",
+        "chatSessionId": "sess_a8f695e1-72fa-4004-802b-4fa566b28350",
+        "timestamp": 1793430511867
+      },
+      {
+        "executionId": "26a03ac8-e117-4683-89aa-22bfd5a7f687",
+        "chatSessionId": "sess_a8f695e1-72fa-4004-802b-4fa566b28350",
+        "timestamp": 1793430638371
+      },
+      {
+        "executionId": "26a03ac8-e117-4683-89aa-22bfd5a7f687",
+        "chatSessionId": "sess_a8f695e1-72fa-4004-802b-4fa566b28350",
+        "timestamp": 1793430711218
+      }
+    ],
+    "8. Verify responsive behavior at phone and desktop widths with no horizontal overflow.": [
+      {
+        "executionId": "26a03ac8-e117-4683-89aa-22bfd5a7f687",
+        "chatSessionId": "sess_a8f695e1-72fa-4004-802b-4fa566b28350",
+        "timestamp": 1793430508715
+      },
+      {
+        "executionId": "26a03ac8-e117-4683-89aa-22bfd5a7f687",
+        "chatSessionId": "sess_a8f695e1-72fa-4004-802b-4fa566b28350",
+        "timestamp": 1793430511933
+      },
+      {
+        "executionId": "26a03ac8-e117-4683-89aa-22bfd5a7f687",
+        "chatSessionId": "sess_a8f695e1-72fa-4004-802b-4fa566b28350",
+        "timestamp": 1793430746994
+      },
+      {
+        "executionId": "f9de5778-c4e8-4a14-8a71-9ba1b21d9c03",
+        "chatSessionId": "sess_a8f695e1-72fa-4004-802b-4fa566b28350",
+        "timestamp": 1793431650334
+      },
+      {
+        "executionId": "edc7dc3c-99f7-4ade-8183-4821b73f8bb9",
+        "chatSessionId": "sess_a8f695e1-72fa-4004-802b-4fa566b28350",
+        "timestamp": 1793431851016
+      },
+      {
+        "executionId": "edc7dc3c-99f7-4ade-8183-4821b73f8bb9",
+        "chatSessionId": "sess_a8f695e1-72fa-4004-802b-4fa566b28350",
+        "timestamp": 1793431924118
+      }
+    ],
+    "9. Confirm the page opens directly and needs no build or backend.": [
+      {
+        "executionId": "26a03ac8-e117-4683-89aa-22bfd5a7f687",
+        "chatSessionId": "sess_a8f695e1-72fa-4004-802b-4fa566b28350",
+        "timestamp": 1793430508990
+      },
+      {
+        "executionId": "26a03ac8-e117-4683-89aa-22bfd5a7f687",
+        "chatSessionId": "sess_a8f695e1-72fa-4004-802b-4fa566b28350",
+        "timestamp": 1793430511987
+      },
+      {
+        "executionId": "edc7dc3c-99f7-4ade-8183-4821b73f8bb9",
+        "chatSessionId": "sess_a8f695e1-72fa-4004-802b-4fa566b28350",
+        "timestamp": 1793431928143
+      },
+      {
+        "executionId": "edc7dc3c-99f7-4ade-8183-4821b73f8bb9",
+        "chatSessionId": "sess_a8f695e1-72fa-4004-802b-4fa566b28350",
+        "timestamp": 1793431967368
+      }
+    ]
+  }
+}
